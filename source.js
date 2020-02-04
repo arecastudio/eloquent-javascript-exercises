@@ -62,3 +62,80 @@ function exercise4(){
 	}
     }
 }
+
+function exercise5(){
+    console.log('Exercise Chapter 3 - Function. Minimum');
+    min=(f,s)=>{
+	f=parseInt(f);
+	s=parseInt(s);
+	let r=f;
+	if(s<f){
+	    r=s;
+	}
+
+	return r;
+    }
+
+    console.log(min(0,10));
+    console.log(min(0,-10));
+}
+
+
+function exercise6(){
+    console.log('Exercise Chapter 3. Function. IsEven');
+    var r=false;
+    isEven=(n)=>{
+	n=parseInt(n);	
+	
+	if(n==1){
+	    r=false;
+	}else if(n==0){
+	    r=true;
+	}else{	    
+	    isEven(n-2);
+	    //console.log(`hasil: ${n}, status:${r}`);
+	}
+	return r;
+    }
+
+    console.log(isEven(50));
+    console.log(isEven(75));
+    //console.log(isEven(-1));
+}
+
+function exercise7(){
+    console.log('Exercise Chapter 3. Function. Bean Counting');
+
+    countBs=(s)=>{
+	let l=s.length;
+	let match='B';
+	let c=0;
+	for(let i=0;i<l;i++){
+	    //console.log(s.substring(i,1));
+	    if(s.substring(i,i+1)==match){		
+		c++;
+	    }
+	}
+	return c;
+    }
+
+    countChar=(s,c)=>{
+	let l=s.length;
+	let cnt=0;
+	let current='';
+	
+	for(let i=0;i<l;i++){
+	    current=s.substring(i,i+1);
+	    //console.log(`${current}`);
+	    if(current==c){
+		cnt++;
+	    }
+	}
+
+	return cnt;
+    }
+
+    console.log(countBs('BBC'));
+    console.log(countChar('kakkerlak', 'k'));
+    console.log(countChar('BBC', 'B'));
+}
