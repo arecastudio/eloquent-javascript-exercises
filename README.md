@@ -11,4 +11,7 @@ This repo created for the current book I read. I will provide my own answer for 
 - [x] [Chapter 3. Functions](https://eloquentjavascript.net/03_functions.html)
 - [ ] [Chapter 4. Data Strunctures: Objects and Arrays](https://eloquentjavascript.net/04_data.html)
 
+## On Verse
+Array Loops
+
 ![Eloquent Javascript](https://eloquentjavascript.net/img/cover.jpg)
