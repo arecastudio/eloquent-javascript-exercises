@@ -139,3 +139,32 @@ function exercise7(){
     console.log(countChar('kakkerlak', 'k'));
     console.log(countChar('BBC', 'B'));
 }
+
+function exercise8(){
+    console.log('Exercise Chapter 4. Data Structures: Objects and Arrays');
+    const range=(x,y)=>{
+	let numbers=[];
+	for(let i=x;i<=y;i++){
+	    numbers.push(i);
+	}
+	return numbers;
+    }
+
+    const sum=(vals)=>{
+	let result=0;
+	for(val of vals){
+	    result+=val;
+	}
+	return result;
+    }
+
+    //console.log('The SUM of Range');
+    console.log('range(1,10): '+range(1,10));
+    console.log('sum(range(1,10)): '+sum(range(1,10)));
+}
+
+
+function exercise9(){
+    console.log('Exercise Chapter 4. Data Structures: Objects and Arrays');
+    console.log(reverseArray(["A","B","C"]));
+}

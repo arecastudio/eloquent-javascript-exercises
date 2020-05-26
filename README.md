@@ -12,6 +12,6 @@ This repo created for the current book I read. I will provide my own answer for 
 - [ ] [Chapter 4. Data Strunctures: Objects and Arrays](https://eloquentjavascript.net/04_data.html)
 
 ## On Verse
-Strings and their properties
+4. Reversing an array
 
 ![Eloquent Javascript](https://eloquentjavascript.net/img/cover.jpg)
