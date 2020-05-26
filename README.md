@@ -10,6 +10,7 @@ This repo created for the current book I read. I will provide my own answer for 
 - [x] [Chapter 2. Program Structure](https://eloquentjavascript.net/02_program_structure.html)
 - [x] [Chapter 3. Functions](https://eloquentjavascript.net/03_functions.html)
 - [ ] [Chapter 4. Data Strunctures: Objects and Arrays](https://eloquentjavascript.net/04_data.html)
+- [ ] [Chapter 5. Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 
 ## On Verse
 4. Reversing an array
