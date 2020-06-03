@@ -167,16 +167,18 @@ function exercise8(){
 function exercise9(){
     console.log('Exercise Chapter 4. Data Structures: Objects and Arrays');
 
-    const reverseArray=(vals)=>{
-	return vals.slice().reverse();
+    
+    const reverseArray=(val)=>{
+	return val.slice().reverse();
     }
 
-    const reverseArrayInPlace=(vals)=>{
-	return vals.reverse;
+    var arrayValue=[1,2,3,4,5];
+    const reverseArrayInPlace=()=>{
+	return arrayValue.reverse();
     }
     
     console.log('reverseArray(A,B,C) :'+reverseArray(["A","B","C"]));
-    let arrayValue=[1,2,3,4,5];
+    
     reverseArrayInPlace(arrayValue);
     console.log('reverseArrayInPlace(arrayValue) :'+arrayValue);
 }
