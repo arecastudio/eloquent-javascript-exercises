@@ -13,6 +13,6 @@ This repo created for the current book I read. I will provide my own answer for 
 - [ ] [Chapter 5. Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 
 ## On Verse
-5. Higher-Order Functions -- Abstraction
+5. Higher-Order Functions -- Script Data Set
 
 ![Eloquent Javascript](https://eloquentjavascript.net/img/cover.jpg)
