@@ -13,6 +13,6 @@ This repo created for the current book I read. I will provide my own answer for 
 - [ ] [Chapter 5. Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 
 ## Progress
-https://eloquentjavascript.net/05_higher_order.html#h_qYzPQMwIvv
+https://eloquentjavascript.net/05_higher_order.html#i_aIOczlLyX1
 
 ![Eloquent Javascript](https://eloquentjavascript.net/img/cover.jpg)
