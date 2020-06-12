@@ -11,6 +11,8 @@ This repo created for the current book I read. I will provide my own answer for 
 - [x] [Chapter 3. Functions](https://eloquentjavascript.net/03_functions.html)
 - [x] [Chapter 4. Data Strunctures: Objects and Arrays](https://eloquentjavascript.net/04_data.html)
 - [ ] [Chapter 5. Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html)
+- [ ] [Chapter 6. The Secret Life of Objects](https://eloquentjavascript.net/06_object.html)
+
 
 ## Progress
 https://eloquentjavascript.net/05_higher_order.html#i_4ccl4J1nOw
