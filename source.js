@@ -9,7 +9,7 @@ function exercise1(){
 	}
 	if(res!='')console.log(res);
     }
-    
+
 }
 
 
@@ -32,7 +32,7 @@ function exercise2(){
 }
 
 
-function exercise3(){    
+function exercise3(){
     let x=8;
     console.log('Exercise Chapter 2. Chessboard. Binding: '+x);
     let bar='# # # #';
@@ -45,7 +45,7 @@ function exercise3(){
     }
 }
 
-function exercise4(){    
+function exercise4(){
     let x=16;
     console.log('Exercise Chapter 2. Chessboard Two Dimension. Binding: '+x);
     let bar='';
@@ -53,8 +53,8 @@ function exercise4(){
     for(let z=0;z<x;z++){
 	bar+='# ';
     }
-    
-    for(let i=0;i<x;i++){	
+
+    for(let i=0;i<x;i++){
 	if(i%2==0){
 	    console.log(' '+bar);
 	}else{
@@ -85,13 +85,13 @@ function exercise6(){
     console.log('Exercise Chapter 3. Function. IsEven');
     var r=false;
     isEven=(n)=>{
-	n=parseInt(n);	
-	
+	n=parseInt(n);
+
 	if(n==1){
 	    r=false;
 	}else if(n==0){
 	    r=true;
-	}else{	    
+	}else{
 	    isEven(n-2);
 	    //console.log(`hasil: ${n}, status:${r}`);
 	}
@@ -112,7 +112,7 @@ function exercise7(){
 	let c=0;
 	for(let i=0;i<l;i++){
 	    //console.log(s.substring(i,1));
-	    if(s.substring(i,i+1)==match){		
+	    if(s.substring(i,i+1)==match){
 		c++;
 	    }
 	}
@@ -123,7 +123,7 @@ function exercise7(){
 	let l=s.length;
 	let cnt=0;
 	let current='';
-	
+
 	for(let i=0;i<l;i++){
 	    current=s.substring(i,i+1);
 	    //console.log(`${current}`);
@@ -167,7 +167,7 @@ function exercise8(){
 function exercise9(){
     console.log('Exercise Chapter 4. Data Structures: Objects and Arrays');
 
-    
+
     const reverseArray=(val)=>{
 	return val.slice().reverse();
     }
@@ -176,9 +176,29 @@ function exercise9(){
     const reverseArrayInPlace=()=>{
 	return arrayValue.reverse();
     }
-    
+
     console.log('reverseArray(A,B,C) :'+reverseArray(["A","B","C"]));
-    
+
     reverseArrayInPlace(arrayValue);
     console.log('reverseArrayInPlace(arrayValue) :'+arrayValue);
+}
+
+function exercise10(){
+  console.log('Exercise Chapter 5. Higher-Order Functions');
+  console.log('Everything');
+
+  function every(array,test){
+    let result=true;
+    for(let ar of array){
+      result=result&&test(ar);
+    }
+    return result;
+  }
+
+  console.log(every([1, 3, 5], n => n < 10));
+  // → true
+  console.log(every([2, 4, 16], n => n < 10));
+  // → false
+  console.log(every([], n => n < 10));
+  // → true
 }
