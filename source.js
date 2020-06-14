@@ -202,3 +202,24 @@ function exercise10(){
   console.log(every([], n => n < 10));
   // → true
 }
+
+function exercise11(){
+  console.log('Exercise Chapter 5. Higher-Order Functions');
+  console.log('Dominant writing direction');
+
+
+  function dominantDirection(text) {
+    let scripts=countBy(text,char=>{
+    	let script=characterScript(char.codePointAt(0));
+      return script?script.direction:"none";
+    }).filter(({name})=>name!="none");
+
+    if (scripts.length == 0) return "ltr";
+
+    return scripts.reduce((a, b) => a.count > b.count ? a : b).name;
+  }
+
+  console.log(dominantDirection("Hello!"));
+  console.log(dominantDirection("Hey, مساء الخير"));
+
+}
